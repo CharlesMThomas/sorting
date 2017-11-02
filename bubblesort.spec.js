@@ -7,6 +7,6 @@ describe('Bubble Sort', function() {
     expect(bubbleSort([1])).toEqual([1]);
   });
   it('handles a multiple items', function() {
-    expect(bubbleSort([5, 2, 7, 9, 3, 5, 4])).toEqual([2, 3, 4, 5, 7, 9]);
+    expect(bubbleSort([5, 2, 7, 9, 3, 4])).toEqual([2, 3, 4, 5, 7, 9]);
   });
 });
